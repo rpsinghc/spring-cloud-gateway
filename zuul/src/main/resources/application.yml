@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zuulserver
+server:
+  port: 8111
+zuul:
+  routes:
+    user:
+      path: /user/**
+      url: http://localhost:8080/

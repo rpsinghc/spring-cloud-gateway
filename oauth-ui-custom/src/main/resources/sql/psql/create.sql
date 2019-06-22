@@ -1,0 +1,14 @@
+CREATE TABLE USERS (
+user_id INT(10) UNSIGNED NOT NULL PRIMARY KEY,
+user_name VARCHAR(50) NOT NULL,
+password VARCHAR(50) NOT NULL,
+enabled boolean
+);
+
+
+CREATE TABLE USERS_ROLES (
+  user_role_id INT(10) UNSIGNED NOT NULL PRIMARY KEY,
+  user_id INT(10) UNSIGNED NOT NULL,
+  authority VARCHAR(45) NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users (user_id)
+);

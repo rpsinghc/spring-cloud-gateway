@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"path": "simpleexample"
+		},
+		{
+			"path": "resourceserver"
+		},
+		{
+			"path": "oauth2clientserver"
+		},
+		{
+			"path": "zuul"
+		},
+		{
+			"path": "authorizationserver"
+		},
+		{
+			"path": "/Users/rpsinghk/projects/github.com/PacktPublishing/Mastering-Microservices-with-Java/Chapter 7"
+		},
+		{
+			"path": "oauth-ui"
+		},
+		{
+			"path": "oauth-ui-custom"
+		},
+		{
+			"path": "/Users/rpsinghk/projects/github.com/rpsinghk/springboot-saml"
+		},
+		{
+			"name": "zookper-service",
+			"path": "/Users/rpsinghk/projects/github.com/rpsinghk/spring-cloud-zookeeper/service-provider/zookper-service"
+		},
+		{
+			"name": "zookperserviceconsumer",
+			"path": "/Users/rpsinghk/projects/github.com/rpsinghk/spring-cloud-zookeeper/zookperserviceconsumer"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"maven.view": "hierarchical",
+		"sqltools.connections": [
+			{
+				"askForPassword": true,
+				"connectionTimeout": 30,
+				"database": "rpsinghk",
+				"dialect": "PostgreSQL",
+				"name": "psql-db",
+				"port": 5432,
+				"server": "127.0.0.1",
+				"username": "rpsinghk"
+			}
+		],
+		"java.dependency.packagePresentation": "flat"
+	}
+}
